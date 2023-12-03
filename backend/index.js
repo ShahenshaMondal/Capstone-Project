@@ -1,9 +1,12 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const cors = require('cors')
 
 const app = express()
 const port = 5000
-const mongoURI = 'mongodb+srv://Razan12:Razan12@cluster0.svwct9s.mongodb.net/foodiofsd?retryWrites=true&w=majority';
+const mongoURI = "mongodb+srv://Razan12:Razan12@cluster0.svwct9s.mongodb.net/foodiofsd?retryWrites=true&w=majority";
+
+app.use(cors());
 
 mongoose.connect(mongoURI)
 
