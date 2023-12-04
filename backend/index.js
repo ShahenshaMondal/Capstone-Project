@@ -13,7 +13,7 @@ mongoose.connect(mongoURI)
 app.use((reqq, res, next) => {
     res.setHeader(
         "Access-Control-Allow-Origin",
-        "http://localhost:3000"
+        "https://capstone-project-frontend-lemon.vercel.app"
     );
     res.header(
         "Access-Control-Allow-Headers",
