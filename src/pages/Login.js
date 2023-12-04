@@ -11,7 +11,7 @@ export default function Login() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const reponse = await fetch('http://localHost:5000/api/loginuser', {
+        const reponse = await fetch('https://capstone-project-ruddy-xi.vercel.app/api/loginuser', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
