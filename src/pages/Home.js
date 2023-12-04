@@ -11,7 +11,7 @@ export default function Home() {
     const [foodItem, setFoodItem] = useState([]);
 
     const loadData = async () => {
-        let response = await fetch("http://localHost:5000/api/fooddata", {
+        let response = await fetch("https://capstone-project-ruddy-xi.vercel.app/api/fooddata", {
             method: "POST",
             headers: {
                 'content-Type': 'application/json'
