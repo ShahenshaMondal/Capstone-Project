@@ -6,9 +6,7 @@ const app = express()
 const port = 5000
 const mongoURI = "mongodb+srv://Razan12:Razan12@cluster0.svwct9s.mongodb.net/foodiofsd?retryWrites=true&w=majority";
 
-app.use(cors({
-    origin: "http://localHost:3000"
-}));
+app.use(cors());
 
 mongoose.connect(mongoURI)
 
