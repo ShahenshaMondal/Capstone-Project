@@ -1,8 +1,11 @@
 # My Project - "Foodio - Food Ordering app"
 
 My project is a single Page React application.\
+
 It is a Mern Stack Project. HTML, css bootstrap and JavaScript with react Js have been used in the frontend, the database is made up of MongoDB and the Backend with Nodejs and ExpressJs.\
+
 My project is a food ordering app. Its name is Foodio.\
+
 In the Foodio app, you will see the food item on the home page, there is a button of the signup login in the right corner where you can signup and login in this application. From the home page you can cart the food items for order and in the cart section you can see your cart items and you can do the orders by clicking on the checkout button. You will see all your order history in My Order section on Navbar.
 
 # Getting Started with Create React App
